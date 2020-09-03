@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(18, 18, 18);
+
+    background: url("img/bg.png");
+}
+/*...*/
+.page {
+    width: 800px;
+    margin: 20px auto;
+
+    background-color: #fff;
+}
+
+/*.----------------Header-----------------.*/
+
+.hdr {
+    padding: 22px;
+
+    background-color: #121212;
+}
+/*...*/
+.hdr-title {
+    padding: 0px 0px 4px 0px;
+    margin: 0;
+
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/*...*/
+.hdr-subtitle {
+    margin: 0;
+    padding: 6px 0px 0px 0px;
+
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
+/*.-----------Nav-Navigaciya-------------.*/
+
+.nav {
+        text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+
+    color: #121212;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #ccc;
+}
+
+/*.Content.*/
+
+.content {
+    padding: 20px;
+}
+
+.content-title {
+    margin: 0;
+    font-size: 24px;
+    color: #ce2929;
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #1d7abe;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+/*.echo "# Practica" >> README.md
+git init
+git add README.md
+git commit -m "первая фиксация"
+git branch -M master
+git remote add origin https://github.com/AleksandrFF/practica.git
+ git push - ты мастер происхождения
+                .*/
